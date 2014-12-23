@@ -77,32 +77,32 @@ studentName('Utkarsh','C412P','NC','PRACTICE SCHOOL').
 studentName('Utkarsh','GSF326','SATISFACTORY','ELECTIVE').
 studentName('Utkarsh','HSSF334','AVERAGE','ELECTIVE').
 % ------------------------------------------------------------------------
-studentName('Sankhya','CSF214','A','CDC').
-studentName('Sankhya','CSF222','NC','CDC').
-studentName('Sankhya','CSF213','A','CDC').
-studentName('Sankhya','CSF215','B','CDC').
-studentName('Sankhya','MATHF113','A','CDC').
-studentName('Sankhya','MATHF111','A','CDC').
-studentName('Sankhya','CHEMF111','A','CDC').
-studentName('Sankhya','BIOF111','A','CDC').
-studentName('Sankhya','PHYF111','B','CDC').
-studentName('Sankhya','MEF110','W','CDC').
-studentName('Sankhya','PHYF110','A','CDC').
-studentName('Sankhya','CHEMF110','A','CDC').
-studentName('Sankhya','BIOF110','A','CDC').
-studentName('Sankhya','MATHF112','NC','CDC').
-studentName('Sankhya','BITSF112','B','CDC').
-studentName('Sankhya','CSF111','W','CDC').
-studentName('Sankhya','BITSF110','A','CDC').
-studentName('Sankhya','EEEF111','A','CDC').
-studentName('Sankhya','BITSF111','B','CDC').
-studentName('Sankhya','MATHF113','A','CDC').
-studentName('Sankhya','HSSF343','B','ELECTIVE').
-studentName('Sankhya','C441T','POOR','SEMINAR').
-studentName('Sankhya','G529','GOOD','PROJECT COURSE').
-studentName('Sankhya','GSF326','NC','ELECTIVE').
-studentName('Sankhya','HSSF325','A','ELECTIVE').
-studentName('Sankhya','C412P','I','PRACTICE SCHOOL').
+studentName('Devashish','CSF214','A','CDC').
+studentName('Devashish','CSF222','NC','CDC').
+studentName('Devashish','CSF213','A','CDC').
+studentName('Devashish','CSF215','B','CDC').
+studentName('Devashish','MATHF113','A','CDC').
+studentName('Devashish','MATHF111','A','CDC').
+studentName('Devashish','CHEMF111','A','CDC').
+studentName('Devashish','BIOF111','A','CDC').
+studentName('Devashish','PHYF111','B','CDC').
+studentName('Devashish','MEF110','W','CDC').
+studentName('Devashish','PHYF110','A','CDC').
+studentName('Devashish','CHEMF110','A','CDC').
+studentName('Devashish','BIOF110','A','CDC').
+studentName('Devashish','MATHF112','NC','CDC').
+studentName('Devashish','BITSF112','B','CDC').
+studentName('Devashish','CSF111','W','CDC').
+studentName('Devashish','BITSF110','A','CDC').
+studentName('Devashish','EEEF111','A','CDC').
+studentName('Devashish','BITSF111','B','CDC').
+studentName('Devashish','MATHF113','A','CDC').
+studentName('Devashish','HSSF343','B','ELECTIVE').
+studentName('Devashish','C441T','POOR','SEMINAR').
+studentName('Devashish','G529','GOOD','PROJECT COURSE').
+studentName('Devashish','GSF326','NC','ELECTIVE').
+studentName('Devashish','HSSF325','A','ELECTIVE').
+studentName('Devashish','C412P','I','PRACTICE SCHOOL').
 % ------------------------------------------------------------------------
 studentName('Manish','CSF214','D','CDC').
 studentName('Manish','CSF222','NC','CDC').
@@ -151,7 +151,7 @@ studentName('Akash','BITSG529','SATISFACTORY','PROJECT COURSE').
 %%% Him.
 %%%
 studentStatus('Utkarsh','NORMAL').
-studentStatus('Sankhya','NORMAL').
+studentStatus('Devashish','NORMAL').
 studentStatus('Manish','CASE AGAINST').
 studentStatus('Akash','NORMAL').
 
@@ -348,7 +348,3 @@ doesStudentHasIGrade(Name) :-
 	findall(X2,studentName(Name,X2,_,_),SubjectList),
 	findall(X3,studentName(Name,_,_,X3),CourseType),
 	report_I(SubjectList,GradeList,CourseType).
-
-
-
-
